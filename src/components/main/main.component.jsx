@@ -79,7 +79,7 @@ export const MainComponent = () => {
                     border: "red 2px dotted",
                   }}
                 >
-                  <UserList data={user} />
+                  <UserList data={user} fetchUser={getUser} />
                 </div>
               );
             })
