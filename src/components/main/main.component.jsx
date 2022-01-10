@@ -47,7 +47,7 @@ export const MainComponent = () => {
 
   return (
     <>
-      <h1> Welcome to GUTHUB users list</h1>
+      <h1> Welcome to GITHUB users list</h1>
       <SearchComponent getUser={filterUser} />
       {userDetails.length > 0 && <UserDetail userDetails={userDetails} />}
       <div className="container-fluid mt-3 adjacent" style={{ padding: "1%" }}>
